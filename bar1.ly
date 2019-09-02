@@ -7,52 +7,52 @@ melody = \relative c' {
   \clef bass
   \key c \major
   \time 4/2
-  r\breve | r | r | \break % 4
-  r\breve | g1. g2 | g f d f | \break % 7
-  f a1 g2 ~ | g f e1 | d a'2 d, | \break % 10
-  a'1 r2 d, | a'4 c2 c,4.\stemUp d8[ e c] \stemNeutral d2 | r4 d a' d4. c8 b2 g4 | \break %13
-  b2. d2 g,4 r d' | b2 a1 d,2 | d'2. d,4 e2 c | \break % 16
-  r2 a' c1 | r2 f,2. f2 a4 ~ | a d, a' d2 c8[ b] a2 | \break % 19
-  r2 c4 c,2 g' d4 | r d' d2. d,4 g d | d1 r | \break % 22
-  g2 c r4 f, a2 | r4 d,2 d'4 d1 | r\breve | \break % 25
-  r\breve | r | r | \break %28
-  r\breve | r | r | \break %31
-  r\breve | r | r | \break %34
-  r\breve | r | r | \break %37
-  r\breve | r | r | \break %40
-  r2 g, g4 b b2 | r4 g c, g'2 c4 r2 | c2. g4 g1 | \break % 43
-  r2 g g1 | r2 g g4. a8 b4. c8 | d2. b4 b1 | \break % 46
-  r\breve | r | r | \break % 49
-  r\breve | r | r | \break % 52
-  r\breve | r | r | \break % 55
-  r\breve | r | r | \break % 58
-  r\breve | r | r | \break % 61
-  r\breve | r | r | \break % 64
-  r\breve | r1 g | g1. g2 | \break % 67
-  g1 r | r\breve | r1 g | \break % 70
-  g2 g c,4 e2 g4 | g c2 c4 c1 | r2 c,4 c2 c4 r a' ~ | \break % 73
-  a4 a a2 r1 | b4. b8 b2 r g | g2. g4 g2 g | \break % 76
-  d'1 g,2 r | r\breve | r | \break % 79
-  r\breve | r | r2 a d, f | \break % 82
-  g2 g a1 | g2 f e1 | d r | \break % 85
-  r2 a' a d, | d r r d | d1. g2 | \break % 88
-  g2 r r1 | r\breve | r\breve | \break % 91
-  r2 c2. c4 a2 | a a r1 | r2 g g g | \break % 94
-  r2 g g g | g g r1 | r\breve | \break % 97
-  r\breve | r | r | \break % 100
-  r1 r2 e4 g ~ | g d r2 d4 g2 c,4 | f2 c r r4 c4 | \break % 103
-  f4 f c2 f r | r1 d4 a'4. e8 a4 | a2 r2 r4 a c c | \break % 106
-  b2 e,4 g2 d4 r g | g e2 g4. f8 e4 r g ~ | g c, g'2 r e ~ | \break % 109
-  e e e1 ~ | e r | r\breve | \break % 112
-  r\breve | r | r | \break % 115
-  r\breve | r | r | \break % 118
-  r1 r2 g | g d g1 | a b | \break % 121
-  a r | g2. fs8 e d2 b | b\breve | \break % 124
-  r1 r2 c | c4 f2 a f4 f2 | c'1 a2 c | \break % 127
-  r2 f, f4 bf2 d4 ~ | d d bf4. a8 g4 d2 g4 | r2 r4 f f2 r4 g ~ | \break % 130
-  g8[ c,] e4 r2 r4 d4 d2 | r2 d' b b | g d r1 | \break % 133
-  r2 d4 g2 e e4 | e4. f8 g2 r4 c2 c4 | r4 b2 g4 g2 r4 g ~ | \break % 136
-  g4 d'4. g,8 b4. c8 d4 d, g ~ | g8[ a] b2 g4 g1 | g\breve | \break
+  r\breve | r | r |  % 4
+  r\breve | g1. g2 | g f d f |  % 7
+  f a1 g2 ~ | g f e1 | d a'2 d, |  % 10
+  a'1 r2 d, | a'4 c2 c,4.\stemUp d8[ e c] \stemNeutral d2 | r4 d a' d4. c8 b2 g4 |  %13
+  b2. d2 g,4 r d' | b2 a1 d,2 | d'2. d,4 e2 c |  % 16
+  r2 a' c1 | r2 f,2. f2 a4 ~ | a d, a' d2 c8[ b] a2 |  % 19
+  r2 c4 c,2 g' d4 | r d' d2. d,4 g d | d1 r |  % 22
+  g2 c r4 f, a2 | r4 d,2 d'4 d1 | r\breve |  % 25
+  r\breve | r | r |  %28
+  r\breve | r | r |  %31
+  r\breve | r | r |  %34
+  r\breve | r | r |  %37
+  r\breve | r | r |  %40
+  r2 g, g4 b b2 | r4 g c, g'2 c4 r2 | c2. g4 g1 |  % 43
+  r2 g g1 | r2 g g4. a8 b4. c8 | d2. b4 b1 |  % 46
+  r\breve | r | r |  % 49
+  r\breve | r | r |  % 52
+  r\breve | r | r |  % 55
+  r\breve | r | r |  % 58
+  r\breve | r | r |  % 61
+  r\breve | r | r |  % 64
+  r\breve | r1 g | g1. g2 |  % 67
+  g1 r | r\breve | r1 g |  % 70
+  g2 g c,4 e2 g4 | g c2 c4 c1 | r2 c,4 c2 c4 r a' ~ |  % 73
+  a4 a a2 r1 | b4. b8 b2 r g | g2. g4 g2 g |  % 76
+  d'1 g,2 r | r\breve | r |  % 79
+  r\breve | r | r2 a d, f |  % 82
+  g2 g a1 | g2 f e1 | d r |  % 85
+  r2 a' a d, | d r r d | d1. g2 |  % 88
+  g2 r r1 | r\breve | r\breve |  % 91
+  r2 c2. c4 a2 | a a r1 | r2 g g g |  % 94
+  r2 g g g | g g r1 | r\breve |  % 97
+  r\breve | r | r |  % 100
+  r1 r2 e4 g ~ | g d r2 d4 g2 c,4 | f2 c r r4 c4 |  % 103
+  f4 f c2 f r | r1 d4 a'4. e8 a4 | a2 r2 r4 a c c |  % 106
+  b2 e,4 g2 d4 r g | g e2 g4. f8 e4 r g ~ | g c, g'2 r e ~ |  % 109
+  e e e1 ~ | e r | r\breve |  % 112
+  r\breve | r | r |  % 115
+  r\breve | r | r |  % 118
+  r1 r2 g | g d g1 | a b |  % 121
+  a r | g2. fs8 e d2 b | b\breve |  % 124
+  r1 r2 c | c4 f2 a f4 f2 | c'1 a2 c |  % 127
+  r2 f, f4 bf2 d4 ~ | d d bf4. a8 g4 d2 g4 | r2 r4 f f2 r4 g ~ |  % 130
+  g8[ c,] e4 r2 r4 d4 d2 | r2 d' b b | g d r1 |  % 133
+  r2 d4 g2 e e4 | e4. f8 g2 r4 c2 c4 | r4 b2 g4 g2 r4 g ~ |  % 136
+  g4 d'4. g,8 b4. c8 d4 d, g ~ | g8[ a] b2 g4 g1 | g\breve | 
 
   \bar "|."
 
@@ -177,11 +177,26 @@ bassref = \relative c' {
 
 \score{
   <<
-    \new Voice = "one" {
-      \melody
+
+    \new Staff \with {
+      \consists "Ambitus_engraver"
+    } {
+      \new Voice = "one" {
+	\melody
+      }
     }
     \new Lyrics \lyricsto "one" \text
+
     \new Staff <<
+      \new Voice = "breaker" {
+	\time 4/2
+	\repeat unfold 46 {
+	  s\breve \noBreak
+	  s\breve \noBreak
+	  s\breve \break
+	}
+      }
+
       \new Voice = "tenref" {
 	\stemUp \tieUp
 	\tenref
@@ -193,9 +208,7 @@ bassref = \relative c' {
     >>
   >>
   \layout {
-    \context {
-      \Voice \consists "Ambitus_engraver"
-    }
+    indent = 0\mm
   }
   \midi { }
 }
