@@ -4,3 +4,4 @@
 *.midi
 TMP.*
 cfg.json
+*.svg

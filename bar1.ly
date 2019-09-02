@@ -1,6 +1,9 @@
 \version "2.18.2"
 \include "english.ly"
 
+#(set-default-paper-size "a6")
+#(set-global-staff-size 25.2)
+
 melody = \relative c' {
   \override Staff.NoteHead.style = #'baroque
 
@@ -187,7 +190,15 @@ bassref = \relative c' {
     }
     \new Lyrics \lyricsto "one" \text
 
-    \new Staff <<
+    \new Staff
+    \with {
+      fontSize = #-3
+      \override StaffSymbol.staff-space = #(magstep -3)
+      \override StaffSymbol.thickness = #(magstep -3)    
+    }
+    <<
+      
+      %{
       \new Voice = "breaker" {
 	\time 4/2
 	\repeat unfold 46 {
@@ -196,6 +207,7 @@ bassref = \relative c' {
 	  s\breve \break
 	}
       }
+      %}
 
       \new Voice = "tenref" {
 	\stemUp \tieUp
