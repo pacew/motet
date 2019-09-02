@@ -1,0 +1,20 @@
+https://github.com/lyp-packages/svg-metadata
+https://gitlab.com/sigmate/lilypond-html-live-score
+
+
+Scalable Vector Graphics. This creates a single SVG file, without
+embedded fonts, for every page of output. It is recommended to install
+the Century Schoolbook fonts, included with your LilyPond
+installation, for optimal rendering. Under UNIX, simply copy these
+fonts from the LilyPond directory (typically
+‘/usr/share/lilypond/VERSION/fonts/otf/’) to ‘~/.fonts/’. The SVG
+output should be compatible with any SVG editor or user agent. There
+is also an option svg-woff (below) for use of woff font files in the
+SVG backend.
+
+svg-woff	#f	Use woff font files in SVG backend.
+
+
+LilyPond in chroot jail
+
+http://lilypond.org/doc/v2.18/Documentation/usage/lilypond-output-in-other-programs
