@@ -23,3 +23,48 @@ svg-woff	#f	Use woff font files in SVG backend.
 LilyPond in chroot jail
 
 http://lilypond.org/doc/v2.18/Documentation/usage/lilypond-output-in-other-programs
+
+
+	(cond ((grob::has-interface grob 'note-head-interface)
+	       (let ((g grob))
+		 (display grob)
+		 (print "\n"))))
+
+
+(mark-event (6 . #<Listener>))
+(spacing-section-event (6 . #<Listener>))
+(RemoveContext (2 . #<Listener>))
+(ChangeParent (3 . #<Listener>))
+(Override (8 . #<Listener>))
+(alternative-event (6 . #<Listener>))
+(Revert (9 . #<Listener>))
+(UnsetProperty (5 . #<Listener>))
+(SetProperty (4 . #<Listener>))
+(apply-output-event (6 . #<Listener>))
+(AnnounceNewContext (7 . #<Listener>))
+(break-event (6 . #<Listener>))
+(CreateContext (1 . #<Listener>) (6 . #<Listener>))
+(label-event (6 . #<Listener>))
+(tempo-change-event (6 . #<Listener>))
+
+#<Prob: 
+Stream_event C++: 
+Stream_event(
+	(music-cause . #<Prob: Music C++: Music
+	  ((length . #<Mom 3/2>)
+	   (duration . #<Duration 1. >)
+	   (pitch . #<Pitch g' >) 
+	   (origin . #<location bar1.ly:130:3>))
+	((display-methods #<procedure #f (note)>) 
+	 (name . NoteEvent) 
+	 (iterator-ctor . #<primitive-procedure ly:rhythmic-music-iterator::constructor>) 
+	 (types event note-event rhythmic-event melodic-event)) >
+
+
+) 
+  (length . #<Mom 3/2>))
+((class note-event melodic-event rhythmic-event music-event StreamEvent) 
+	(length . #<Mom 3/2>) 
+	(duration . #<Duration 1. >) 
+	(pitch . #<Pitch g' >) 
+	(origin . #<location bar1.ly:130:3>)) >

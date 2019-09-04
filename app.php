@@ -62,6 +62,8 @@ function pfinish () {
     $pg .= sprintf ("<link rel='stylesheet' href='style.css?c=%s' />\n",
                     get_cache_defeater ());
 
+    //    $pg .= "<link rel='manifest' href='manifest.json' />\n";
+
     $pg .= "<script src='https://ajax.googleapis.com"
         ."/ajax/libs/jquery/2.1.4/jquery.min.js'></script>\n";
 
@@ -80,14 +82,7 @@ function pfinish () {
 
     $pg .= "<body>\n";
 
-    $pg .= "<div class='nav'>\n";
-    $pg .= mklink ("home", "/");
-    $pg .= "</div>\n";
-
     $pg .= "<div class='content'>\n";
-
-    $pg .= sprintf ("<h1 class='banner_title'>%s</h1>\n",
-                    $title_html);
 
     echo ($pg);
     $pg = "";

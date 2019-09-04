@@ -1,8 +1,17 @@
 \version "2.18.2"
 \include "english.ly"
 
-#(set-default-paper-size "a6")
+% #(set-default-paper-size "a7")
 #(set-global-staff-size 25.2)
+
+#(set! paper-alist (cons 
+		    '("phone" . (cons (* 4.1 in) (* 150 in))) 
+		    paper-alist))
+
+\paper {
+  #(set-paper-size "phone")
+}
+
 
 melody = \relative c' {
   \override Staff.NoteHead.style = #'baroque
@@ -185,6 +194,7 @@ bassref = \relative c' {
       \consists "Ambitus_engraver"
     } {
       \new Voice = "one" {
+	\tempo 2 = 60
 	\melody
       }
     }

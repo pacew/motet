@@ -1,0 +1,8 @@
+#beat_display {
+    width: 100%;
+    position: fixed;
+    font-size: 200%;
+    padding: 5px;
+    background: white;
+    
+}
