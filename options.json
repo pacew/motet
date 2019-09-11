@@ -1,4 +1,8 @@
 {
   "site_type": "php",
-  "db": "postgres"
+  "db": "postgres",
+  "l1.pacew.org": {
+    "external_name": "motet.pacew.org"
+  }
+
 }
